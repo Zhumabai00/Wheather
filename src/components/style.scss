@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+};
+
+.weather {
+	background-image: url(../asets/35.jpeg);
+	// background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	// @media (max-width: 750px) {
+	// 	background-image: url(../asets/file.jpeg);
+	// }
+
+}
+
+.app {
+	width: 360px;
+	height: 460px;
+	background: #F1F0FA;
+	border: 12px solid rgba(255, 255, 255, 0.6);
+	border-radius: 40px;
+	margin: 0 auto;
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+	background-color: #9087D4;
+
+}
+
+.top {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 15px;
+	padding-top: 55px;
+	text-align: center;
+	color: #F1F0FA;
+}
+
+.weather__from {
+	margin-top: 40px;
+	text-align: center;
+}
+.weather__input {
+	width: 200px;
+	height: 40px;
+	background: #F1F0FA;
+	color: #9087D4;
+	border: 5px solid rgba(255, 255, 255, 0.6);
+	border-radius: 40px;
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 10px;
+	padding-left: 10px;
+}
+
+.button {
+	display: inline-block;
+	height: 40px;
+	background: #4B3EAE;
+	border: none;
+	border-radius: 40px;
+	margin-left: 8px;
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 10px;
+	color: #F1F0FA;
+	&:hover{
+		background: #5B3EAE;
+		transition-property: all;
+    	transition-duration: 0.3s;
+	}
+}
+
+.text-padding {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	color: rgba(255, 255, 255, 0.6);
+	text-align: center;
+	padding-top: 50px;
+}
+
+.weathear__top {
+	padding-top: 17px;
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	color: #F1F0FA;
+	display: inline-block;
+	display: flex;
+	justify-content: space-between;
+}
+
+.city {
+	padding: 0 0 0 16px;
+}
+
+.contry {
+	padding: 0 18px 0;
+}
+
+.weather__main {
+	margin-top: 30px;
+	padding-top: 63px;
+	display: block;
+	background: url(../asets/Moon1.svg);
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 85px;
+	line-height: 25px;
+	color: #F1F0FA;
+	width: 134px;
+	height: 145px;
+	text-align: center;
+	position: relative;
+}
+
+.degree {
+	position: absolute;
+	right: -180px;
+	// bottom: 0;
+}
